@@ -1,11 +1,11 @@
 # 📈 Análisis Evolutivo de Felicidad Mundial (2017-2019) con MySQL
 
 ## 📖 Descripción del Proyecto
-Este proyecto consiste en la integración y análisis de datos del *World Happiness Report* para el trienio 2017-2019. El objetivo principal fue centralizar archivos CSV con estructuras heterogéneas en una base de datos relacional MySQL para ejecutar consultas de inteligencia de negocios.
+Este proyecto consiste en la integración y análisis de datos del *World Happiness Report* para el trienio 2017-2019.
 
 ## 🛠️ Desafíos Técnicos Superados
-* **Normalización Estructural:** Los archivos originales presentaban nombres de columnas distintos. Se estandarizaron bajo una tabla maestra única.
-* **Optimización de Consultas:** Uso de *Self-Joins* para calcular variaciones entre años sin necesidad de herramientas externas.
+* **Normalización Estructural:** Los archivos originales era CSV independientes que presentaban nombres de columnas distintos. Se estandarizaron bajo una tabla maestra única.
+* **Optimización de Consultas:** Uso de *Joins* para calcular variaciones entre años sin necesidad de herramientas externas.
 
 ---
 
